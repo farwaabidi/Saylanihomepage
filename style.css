@@ -1,0 +1,347 @@
+.top-bar{
+    background-color: #316DC3;
+}
+.fa-facebook, .fa-twitter, .fa-instagram, .fa-whatsapp {
+    color: white;
+}
+.top-text{
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    padding-top: 5px;
+    display: inline-block;
+}
+.buttons a{
+    margin-top: 5px;
+    color: green;
+    background-color: rgb(241, 241, 241);
+    border: limegreen 1px solid;
+    display: inline-block;
+}
+.navbar a img{
+    width: 150px;
+    height: 50px;
+}
+   
+.navbar-nav li a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+     font-size: 13px;
+    
+}
+.navbar-nav > li{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.navbar-light .navbar-nav  .nav-link{
+    color: black;
+}
+.nav-item{
+    color: black;
+}
+
+.nav-link.home{
+    color: white !important;
+    
+
+}
+
+.nav-link{
+    color: black !important;
+}
+.navbar-nav > li.active > a{
+    background-color: #316DC3; 
+    padding: 5px 4px ;
+    border-radius: 22px;  
+}
+.navbar-nav > li > a{
+    padding: 5px 4px 6px 15px;
+    border-radius: 22px;
+    
+}
+.navbar-nav >li:hover >a{
+    padding: 5px 4px ;
+    border-radius: 22px;  
+    background-color: #316DC3;
+    color: white !important;
+}
+.carousel-inner{
+    margin-top: -20px;
+}
+#marq{
+    margin-top: 8px;
+}
+marquee{
+    background-color: rgb(43, 111, 196);
+    height: 30px;
+}
+.intro{
+   padding-top:60px;
+    font-family:'Merriweather', serif; ;
+    font-style: bold;
+    text-decoration: solid;
+    font-size: 30px;
+    font-weight:bolder;
+    font-stretch: semi-condensed;
+    text-transform: uppercase;
+}
+#para{
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+     color:rgb(99, 99, 99);
+     font-size: 14px;
+    text-align: justify;
+    max-width: 80%;
+   margin: 0 auto;
+    line-height: 30px;
+    
+}
+.logo{
+    height: 55px;
+    width: 220px;
+}
+.introcontainer{
+    margin-top: 10px;
+    background-color:#F7F8FA;
+}
+.bluepart{
+    background-color: rgb(40, 60, 238);
+   
+}
+#icon {
+    
+    height: 55px;
+    width: 60px;
+}
+.blue{
+   padding-top: 40px;
+   padding-left: 12px;
+   padding-right: 12px;
+}
+#count{
+    font-family: 'Merriweather', serif;
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+}
+#daily{
+    font-weight: 650;
+    font-family: 'Merriweather', serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    
+}
+.boxes{
+    background-color: #F7F8FA;
+    height: 100%;
+}
+.boxline1{
+    background-color: #F7F8FA;
+    padding-top: 30px;
+}
+#boxicon{
+    height: 60px;
+    width: 65px;
+}
+#boxtext{
+    color: #316DC3;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+}
+.box{
+    background-color: white;
+    height: 150px;
+    transition: 0.5s;
+    box-shadow: 10px 10px 15px rgb(161, 161, 161);
+}
+.box:hover{
+    transform: scale(1.2);
+    background: #ffffff;
+    z-index: 2;    
+}
+#mission{
+    text-transform: uppercase;
+    color:rgb(43, 111, 196);
+    font-family:'Merriweather', serif ;
+    font-weight:bolder;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.mis{
+    
+        bottom: -1px;
+        content: "";
+        height: 2px;
+        margin-left: 30px;
+        display: block;
+        width: 50px;
+        background-color: green;
+}
+.eve{
+    bottom: -1px;
+        content: "";
+        height: 1.5px;
+        margin-left: 2px;
+        display: block;
+        width: 200px;
+        background-color: rgb(228, 228, 228);
+}
+
+.box2{
+       background-color: #F7F8FA;
+       height: 60px;
+       border: rgb(143, 143, 229) 1px solid;
+}
+.boxline2{
+    padding-top: 40px;
+    padding-left: 30px;
+    justify-content: space-between;
+}
+.boxtext2{
+    text-transform: uppercase;
+    color:rgb(43, 111, 196);
+    font-family:'Merriweather', serif ;
+    font-weight:bolder;
+    font-size: 13px;
+    text-align:start;
+    display: inline-block;
+}
+
+#eventtxt{
+    text-transform: uppercase;
+    color:rgb(43, 111, 196);
+    font-family:'Merriweather', serif ;
+    font-weight:bolder;
+    font-size: 20px;
+}
+.newsmarq{
+    width: 70%;
+    height: 250px;
+}
+#marq2{
+    width: 85%;
+    height: 250px;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif ;
+     color:rgb(134, 134, 134);
+     font-size: 13px;
+     line-height: 25px;
+    text-align: justify;
+}
+.b{
+    padding-left: 30px;
+}
+.imgul #imgli {
+    margin-top: 30px;
+    list-style-type: none;
+    display: inline-block;
+    
+}
+#imgli img{
+    width: 180px;
+    height: 100px;
+   
+}
+#imgli{
+    transition: 0.5s;
+}
+#imgli img:hover{
+    
+        transform: scale(1.2);
+        background: #ffffff;
+        z-index: 2; 
+        border:rgb(43, 111, 196) solid;   
+    
+}
+.info p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #BBBBBB;
+    font-size: 11px;
+    padding-top: -2px;
+    padding-left: 30px;
+   
+}
+#address{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #BBBBBB;
+    font-size: 12px;
+    padding-top: 85px;
+    padding-left: 30px;
+    line-height: 18px;
+}
+.contact{
+    background-color: #25272E;
+}
+.fa-phone , .fa-envelope, .fa-globe{
+    color: #417701 ;
+}
+#useful{
+    padding-top: 55px;
+    font-family:'Merriweather', serif ;
+    font-style: bold;
+    color: white;
+    font-size: 13px;
+    margin-left: 20px;
+    font-weight: 600;
+}
+#greenline2{
+    margin-top: -1px;
+    width: 50px;
+    margin-left: 20px;
+    border:#1E7F14 solid ;
+    border-radius: 2px;
+    border-bottom: 0.8px;
+}
+#greyline2{
+    margin-top: -12px;
+    width: 180px;
+    margin-left: 60px;
+    border:rgb(40, 54, 70) solid ;
+    border-radius: 2px;
+    border-bottom: 2px;
+}
+#connect{
+   
+    margin-left: 20px;
+    padding-top:55px;
+    
+}
+#con{
+    font-family:'Merriweather', serif ;
+    font-style: bold;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+}
+.connectlinks {
+    list-style-type: none;
+    margin-left: -50px;
+    
+   
+}
+.connectli {
+    display: inline-block;
+       
+}
+.connectli a img{
+    width: 32px;
+    height: 30px;
+}
+.bluestrip{
+   
+    height: 50px;
+    background-color:#316DD9;
+    font-size: 10px;
+    color: white;
+    
+}
+.bluestrip p{
+    padding-top: 15px;
+    padding-left: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
